@@ -68,7 +68,7 @@ curl -X POST https://houserentprice.onrender.com/ \
 ```python
 import requests
 
-url = "https://houserentprice.onrender.com/"
+url = "https://houserentprice.onrender.com/predict"
 data = {
     "Location": "Block H, Bashundhara R-A, Dhaka",
     "Area": 1600,
